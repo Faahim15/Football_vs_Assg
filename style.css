@@ -51,9 +51,9 @@
 /* --------------------------
         Football superstars Article 
                -----------------------------*/ 
-               .champ-player{
-                   background-color: whitesmoke;
-               }
+    .champ-player{
+     background-color: whitesmoke;
+     }
                
      .players{
          display: grid;
@@ -74,19 +74,22 @@
      
     .player img{
             height: 256px;
-            width: 330px;
-            /* margin: 15px; */
-            /* border-radius: 5px; */
+            width: 300px;
+            margin: 15px;
+            border-radius: 5px; 
+            padding: 5px;
         
      } 
-        h2{
-             padding-right: 40px;
-             text-align: left;
-
-             padding-top: 40px; 
-             
-            
-        }
+       .player h2{
+             position:relative;
+             left: 18px;
+             text-align: left; 
+             padding-top:20px;
+         }
+         .player p{
+            position:relative;
+            left: 18px;
+         }
         
         /* ---------------------Extra section
                     Premiere league football form styles
@@ -118,11 +121,17 @@
             border: 1px solid lightsalmon; 
             
           } 
+          .messi,img{
+            margin-bottom: 130px;
+          }
           .messi:hover,img{
             transform: translateY(50px);
             transition: transform 1s ease-in-out .2s;
+           
           }  
-          h2{
+          
+          .messi h2 p{
+              padding: 20px;
               text-align: justify;
           }
           h2:hover{
