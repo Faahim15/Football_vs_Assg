@@ -1,0 +1,128 @@
+/* ------------------------------
+        Football kicking styles 
+                 ------------------------*/ 
+.container{
+    background: rgba(3, 3, 95, 0.459);
+}
+.football-kick{
+    display: flex;
+}
+.font-color{
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 700; */
+    margin-top: 207px;
+    margin-bottom: 240px;
+    margin-left: 156px;
+    font-size: 64px;
+    width: 485px;
+    height: 230px;
+    color: whitesmoke;
+    
+} 
+.font-color a{
+    font-size: 30px ;
+    background: #E02C6D;
+    text-decoration: none;
+    position: relative;
+    bottom: 27px;
+    padding: 10px, 24px, 10px, 24px;
+
+    
+}
+.top-banner img{
+    width: 556.01px;
+    height: 438px;
+    position: relative;
+    left: 123px;
+    top: 186px; 
+}
+/* --------------------------
+        Football superstars Article 
+               -----------------------------*/ 
+               .champ-player{
+                   background-color: whitesmoke;
+               }
+               
+     .players{
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         margin-top: 2em;
+         grid-row-gap: 28px;
+         grid-column-gap: 30px;
+         /* background-color: whitesmoke; */
+          /* column-gap: 30px;  */
+     }
+     .player{
+         width: 330px;
+         height: 474px;
+         padding: 2em;
+         border: 1px solid white;
+         border-color: tomato;
+         border-radius: 5px;
+         
+     }
+     .player{
+        /* border: 1px solid white;
+        border-width: 1em;
+        border-top: 330px ;
+        border-radius: 0px; 
+        padding: 50px;
+        background-color: whitesmoke;
+         margin-top: 47px;  */
+        
+     }
+    .player img{
+            height: 256px;
+            width: 330px;
+            /* margin: 15px; */
+            /* border-radius: 5px; */
+        
+     } 
+        h2,p{
+            /* padding-left: 20px;
+            text-align: justify;
+            padding-top: 10px; */
+            padding-right: 20px;
+            /* margin-bottom: 15px; */
+        }
+        /* ----------------------------
+                Logo and social media icon
+                        ------------------------- */ 
+            .footer-styles{
+                position: relative;
+                left: 475px;
+                height: 213px;
+                width: 483px;
+                margin-top: 130px;
+                border: 1px solid blue;
+                
+              } 
+            
+             .logo img{
+                 height: 110px;
+                 width: 483;
+                 /* position: relative; */
+                 /* left: 15px; */
+             }
+             .logos{
+                
+                margin-top:30px;
+                margin-left: 90px;
+                font-size: 1.3em;
+
+             } 
+             #icon{
+                 display: flex;
+                 gap: 16px;
+                 position: relative;
+                 left: 90px;
+                 margin:20px 20px;
+                 /* display: grid;
+                 grid-template-columns: repeat(4, 1fr);
+                 grid-column-gap: 14px; */
+                 }
+                 .fab{        
+                    
+                     background-color: slategray;
+                     border-radius: 5px;
+                 }
